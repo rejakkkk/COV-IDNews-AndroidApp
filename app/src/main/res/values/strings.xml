@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">COV-ID News</string>
+    <string name="buttonAdmin">Button</string>
+    <string name="profile">Profile</string>
+    <string name="bookmarks">Bookmarks</string>
+    <string name="logout">LogOut</string>
+    <string name="email">COV-ID@email.com</string>
+    <string name="admin">Admin</string>
+</resources>

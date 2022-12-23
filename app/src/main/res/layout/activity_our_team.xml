@@ -1,0 +1,296 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".OurTeam"
+    android:background="#F1F1F6">
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="MissingConstraints">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"
+            android:cropToPadding="true"
+            android:src="@drawable/elipsedesain" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:gravity="center"
+        android:text="Our Team"
+        android:textColor="@color/white"
+        android:textSize="30sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="45dp"
+        android:layout_height="37dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintEnd_toStartOf="@+id/textView7"
+        app:layout_constraintHorizontal_bias="0.06"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/abc_vector_test"
+        android:onClick="clikback2"/>
+
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout2"
+        android:layout_width="411dp"
+        android:layout_height="72dp"
+        android:layout_marginTop="4dp"
+        android:background="@drawable/form"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout2"
+        tools:ignore="MissingConstraints">
+
+
+        <ImageView
+            android:id="@+id/team1"
+            android:layout_width="86dp"
+            android:layout_height="match_parent"
+            android:src="@drawable/adminperson" />
+
+
+        <TextView
+            android:id="@+id/TY"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/team1"
+            android:paddingLeft="16dp"
+            android:paddingTop="8dp"
+            android:text="Yudi Febriyanto"
+            android:textSize="18sp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/TY"
+            android:layout_toRightOf="@id/team1"
+            android:paddingLeft="16dp"
+            android:paddingTop="8dp"
+            android:text="Project Manager"
+            android:textSize="15sp" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout3"
+        android:layout_width="410dp"
+        android:layout_height="73dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/form"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/relativeLayout2"
+        tools:ignore="MissingConstraints">
+
+        <ImageView
+            android:id="@+id/team2"
+            android:layout_width="86dp"
+            android:layout_height="match_parent"
+            android:src="@drawable/adminperson" />
+
+        <TextView
+            android:id="@+id/TR"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/team2"
+            android:paddingLeft="16dp"
+            android:paddingTop="8dp"
+            android:text="Reza Cahya Nugraha"
+            android:textSize="18sp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/TR"
+            android:layout_toRightOf="@id/team2"
+            android:paddingLeft="16dp"
+            android:paddingTop="8dp"
+            android:text="Design"
+            android:textSize="15sp" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout4"
+        android:layout_width="411dp"
+        android:layout_height="76dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/form"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/relativeLayout3"
+        tools:ignore="MissingConstraints">
+
+        <ImageView
+            android:id="@+id/team3"
+            android:layout_width="86dp"
+            android:layout_height="match_parent"
+            android:src="@drawable/adminperson" />
+
+        <TextView
+            android:id="@+id/TZU"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/team3"
+            android:paddingLeft="16dp"
+            android:paddingTop="8dp"
+            android:text="Zufar Abyan Handito"
+            android:textSize="18sp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/TZU"
+            android:layout_toRightOf="@id/team3"
+            android:paddingLeft="16dp"
+            android:paddingTop="8dp"
+            android:text="Design"
+            android:textSize="15sp" />
+
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout5"
+        android:layout_width="411dp"
+        android:layout_height="75dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/form"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/relativeLayout4"
+        tools:ignore="MissingConstraints">
+
+        <ImageView
+            android:id="@+id/team4"
+            android:layout_width="86dp"
+            android:layout_height="match_parent"
+            android:src="@drawable/adminperson" />
+
+        <TextView
+            android:id="@+id/TVzenta"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/team4"
+            android:paddingLeft="16dp"
+            android:paddingTop="8dp"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:text="Zenta Hapsari Elfariani" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/TVzenta"
+            android:layout_toRightOf="@id/team4"
+            android:paddingLeft="16dp"
+            android:paddingTop="8dp"
+            android:text="Back End"
+            android:textSize="15sp" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout6"
+        android:layout_width="411dp"
+        android:layout_height="74dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/form"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/relativeLayout5"
+        tools:ignore="MissingConstraints">
+
+        <ImageView
+            android:id="@+id/team5"
+            android:layout_width="86dp"
+            android:layout_height="match_parent"
+            android:src="@drawable/adminperson" />
+
+        <TextView
+            android:id="@+id/TVjoy"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/team5"
+            android:paddingLeft="16dp"
+            android:paddingTop="8dp"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:text="Wijoyo Budi Prasetyo" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/TVjoy"
+            android:layout_toRightOf="@id/team5"
+            android:paddingLeft="16dp"
+            android:paddingTop="8dp"
+            android:text="Front End"
+            android:textSize="15sp" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="413dp"
+        android:layout_height="71dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/form"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/relativeLayout6"
+        tools:ignore="MissingConstraints">
+
+        <ImageView
+            android:id="@+id/team6"
+            android:layout_width="86dp"
+            android:layout_height="match_parent"
+            android:src="@drawable/adminperson" />
+
+        <TextView
+            android:id="@+id/TVrizky"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/team6"
+            android:paddingLeft="16dp"
+            android:paddingTop="8dp"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:text="Rizky Achmad Almayda" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/TVrizky"
+            android:layout_toRightOf="@id/team6"
+            android:paddingLeft="16dp"
+            android:paddingTop="8dp"
+            android:text="Writer"
+            android:textSize="15sp" />
+
+    </RelativeLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

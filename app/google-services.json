@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "548397778853",
+    "firebase_url": "https://tim6-crud-default-rtdb.firebaseio.com",
+    "project_id": "tim6-crud",
+    "storage_bucket": "tim6-crud.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:548397778853:android:56ae292461d2a49f66ca4c",
+        "android_client_info": {
+          "package_name": "com.example.cov_idnews"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "548397778853-dlc76gt2nosd14hipbn8tdd4nf85pkaf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAuVKOrEkY86fZj9XaAaSz3vQcJA7kRzD4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "548397778853-dlc76gt2nosd14hipbn8tdd4nf85pkaf.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

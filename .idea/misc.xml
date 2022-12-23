@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/ASUS TUF/AndroidStudioProjects/COIV-ID-News-master/app/src/main/res/layout/activity_add_hospital.xml" value="0.1381340579710145" />
+        <entry key="..\:/Users/ASUS TUF/AndroidStudioProjects/COIV-ID-News-master/app/src/main/res/layout/activity_add_news.xml" value="0.1381340579710145" />
+        <entry key="..\:/Users/ASUS TUF/AndroidStudioProjects/COIV-ID-News-master/app/src/main/res/layout/activity_halaman_admin.xml" value="0.1381340579710145" />
+        <entry key="..\:/Users/ASUS TUF/AndroidStudioProjects/COIV-ID-News-master/app/src/main/res/layout/activity_help_tab.xml" value="0.24583333333333332" />
+        <entry key="..\:/Users/ASUS TUF/AndroidStudioProjects/COIV-ID-News-master/app/src/main/res/layout/activity_hospital_tab.xml" value="0.1381340579710145" />
+        <entry key="..\:/Users/ASUS TUF/AndroidStudioProjects/COIV-ID-News-master/app/src/main/res/layout/activity_landing_page.xml" value="0.24583333333333332" />
+        <entry key="..\:/Users/ASUS TUF/AndroidStudioProjects/COIV-ID-News-master/app/src/main/res/layout/activity_list_hospital_admin.xml" value="0.24583333333333332" />
+        <entry key="..\:/Users/ASUS TUF/AndroidStudioProjects/COIV-ID-News-master/app/src/main/res/layout/activity_login_admin.xml" value="0.1381340579710145" />
+        <entry key="..\:/Users/ASUS TUF/AndroidStudioProjects/COIV-ID-News-master/app/src/main/res/layout/activity_main.xml" value="0.1381340579710145" />
+        <entry key="..\:/Users/ASUS TUF/AndroidStudioProjects/COIV-ID-News-master/app/src/main/res/layout/activity_news_tab.xml" value="0.1381340579710145" />
+        <entry key="..\:/Users/ASUS TUF/AndroidStudioProjects/COIV-ID-News-master/app/src/main/res/layout/activity_our_team.xml" value="0.1381340579710145" />
+        <entry key="..\:/Users/ASUS TUF/AndroidStudioProjects/COIV-ID-News-master/app/src/main/res/layout/activity_update_hospital.xml" value="0.24583333333333332" />
+        <entry key="..\:/Users/ASUS TUF/AndroidStudioProjects/COIV-ID-News-master/app/src/main/res/layout/fragment_all_news.xml" value="0.1381340579710145" />
+        <entry key="..\:/Users/ASUS TUF/AndroidStudioProjects/COIV-ID-News-master/app/src/main/res/layout/fragment_case.xml" value="0.1381340579710145" />
+        <entry key="..\:/Users/ASUS TUF/AndroidStudioProjects/COIV-ID-News-master/app/src/main/res/layout/fragment_handling.xml" value="0.24583333333333332" />
+        <entry key="..\:/Users/ASUS TUF/AndroidStudioProjects/COIV-ID-News-master/app/src/main/res/layout/fragment_technology.xml" value="0.24583333333333332" />
+        <entry key="..\:/Users/ASUS TUF/AndroidStudioProjects/COIV-ID-News-master/app/src/main/res/layout/item_berita.xml" value="0.24583333333333332" />
+        <entry key="..\:/Users/ASUS TUF/AndroidStudioProjects/COIV-ID-News-master/app/src/main/res/layout/item_rumahsakit.xml" value="0.24583333333333332" />
+        <entry key="..\:/Users/ASUS TUF/AndroidStudioProjects/COIV-ID-News-master/app/src/main/res/layout/layout_navigation_header.xml" value="0.24583333333333332" />
+        <entry key="..\:/Users/ASUS TUF/AndroidStudioProjects/COIV-ID-News-master/app/src/main/res/menu/menu_dropdown.xml" value="0.10729166666666666" />
+        <entry key="..\:/Users/ASUS TUF/AndroidStudioProjects/COIV-ID-News-master/app/src/main/res/menu/menu_form.xml" value="0.10729166666666666" />
+        <entry key="..\:/Users/ASUS TUF/AndroidStudioProjects/COIV-ID-News-master/app/src/main/res/menu/navigation_menu.xml" value="0.10729166666666666" />
+        <entry key="..\:/Users/ASUS TUF/AndroidStudioProjects/COVID-ID-News/app/src/main/res/layout/activity_halaman_admin.xml" value="0.10729166666666666" />
+        <entry key="..\:/Users/ASUS TUF/AndroidStudioProjects/COVID-ID-News/app/src/main/res/layout/activity_hospital_tab.xml" value="0.10729166666666666" />
+        <entry key="..\:/Users/ASUS TUF/AndroidStudioProjects/COVID-ID-News/app/src/main/res/layout/activity_login_admin.xml" value="0.10729166666666666" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
